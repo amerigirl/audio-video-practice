@@ -5,33 +5,24 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     android:orientation="vertical"
-    android:padding="24dp"
-    tools:context=".MainActivity">
+    android:layout_gravity="center"
+    tools:context=".VideoActivity">
 
-<Button
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:id="@+id/btnPlayAudio"
-    android:text="Play Audio"
-/>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/videoView"
+    />
+
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnStopAudio"
-        android:text="Stop Audio"
-        android:layout_marginTop="24dp"
-
-        />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/PlayVideo"
+        android:id="@+id/btnPlayVideo"
         android:text="Play Video"
         android:layout_marginTop="24dp"
 
         />
-
 </LinearLayout>
